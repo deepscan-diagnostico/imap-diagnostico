@@ -304,8 +304,8 @@ export default function App() {
 function Header({ saveState, onReset, stage }) {
   return (
     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px 28px", borderBottom: "1px solid #2C3034" }}>
-      <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-        <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 20, letterSpacing: -0.3 }}>DEEPSCAN</span>
+      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+        <img src="/deepscan-icon.png" alt="DeepScan" style={{ height: 32, width: "auto" }} />
         <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: "#D69A3B", letterSpacing: 1 }}>IMAP SELADORAS · DIAGNÓSTICO</span>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
@@ -325,6 +325,7 @@ function Header({ saveState, onReset, stage }) {
 function Intro({ onStart, hasProgress }) {
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: "64px 28px 0" }}>
+      <img src="/deepscan-logo-full.png" alt="DeepScan Diagnóstico" style={{ width: "100%", maxWidth: 420, marginBottom: 32 }} />
       <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: "#D69A3B", letterSpacing: 2, marginBottom: 14 }}>
         DIAGNÓSTICO EMPRESARIAL · 6 MÓDULOS
       </div>
